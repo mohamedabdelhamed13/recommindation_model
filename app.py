@@ -46,8 +46,8 @@ def df():
 # In[5]:
 
 
-number_of_samples = 5000
-df  = df().sample(number_of_samples)
+
+df  = df()
 
 
 # In[6]:
