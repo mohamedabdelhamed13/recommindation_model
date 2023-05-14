@@ -6,8 +6,6 @@
 
 import pandas as pd
 import numpy as np 
-import matplotlib.pyplot as plt 
-import seaborn as sns 
 import tensorflow as tf 
 from tensorflow import keras
 from tensorflow.keras import layers
@@ -37,7 +35,7 @@ def df2():
 
 
 def df():
-    data = pd.read_csv("C:\\Users\\moham\\OneDrive\\Desktop\\ratings_nurses.csv" , header = None )
+    data = pd.read_csv("ratings_nurses.csv" , header = None )
     data.columns = ["nurseID" , "UserID" , "Rating" , "Time" ] 
     data['Rating'] = data['Rating'].astype('int8')
     data.drop('Time' , axis = 1 , inplace = True )
@@ -222,7 +220,7 @@ import pickle
 
 # Load the model from a file.
 with open('model.pkl', 'rb') as f:
-    model = pickle.load(f)
+     model = pickle.load(f)
     
 # Create the API
 app = flask.Flask(__name__)
