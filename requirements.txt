@@ -3,5 +3,4 @@ flask
 pickle
 firebase_admin
 tensorflow
-private key for firebase
-model.pkl
+gunicorn 
