@@ -234,7 +234,7 @@ def predict():
     prediction = model.getRecomendation(df() , nurse_id ,10 )
 
     # Return the prediction
-    return flask.jsonify( prediction )
+    return print('  ')
 
 # Run the API
 if __name__ == '__main__':
