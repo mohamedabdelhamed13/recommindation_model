@@ -1,6 +1,5 @@
 pandas
 flask
-pickle
 firebase_admin
 tensorflow
 gunicorn 
