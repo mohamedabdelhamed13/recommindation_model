@@ -1,5 +1,0 @@
-pandas
-flask
-firebase_admin
-tensorflow
-gunicorn 
